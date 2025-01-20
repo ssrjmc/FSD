@@ -7,13 +7,21 @@
 }
 
 .header{
-    background-color: rgb(8, 57, 218);
-    color: white;
+    background-color: rgb(181, 185, 199);
+    color: black;
     padding: 10px;
     text-align: center;
 }
+
+div h1{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
 .footer{
-    background-color: rgb(0, 31, 133);
+    background-color: rgba(5, 25, 114, 0.5); 
     color: white;
     padding: 10px;
     text-align: center;
@@ -21,18 +29,55 @@
 
 /* ID Selecter */
 nav{
-    background-color: rgb(40, 121, 8);
+    background-color: rgb(53, 53, 53);
     color: white;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
     
     }
-a{
+a
+{
         color: white;
         padding: 10px;
     }
-p{
+p
+{
     color: blue;
     
+}
+#art{
+    color: gray;
+     
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover {
+    background-color: #555;
+}
+/* Border style demo */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* border-style:dashed; */
+    border-style:groove;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    border-top-style: none;
+    
+}
+#container{
+   
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    display: flex;
 }
